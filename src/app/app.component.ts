@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
+  name = 'Willow Frey';
+  itemList = ['bagel', 'bread', 'beagles'];
+  rectangle = {
+    length: 5,
+    width: 6,
+    area: function () {
+      return this.length * this.width;
+    }
+  }
 }
